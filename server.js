@@ -89,7 +89,7 @@ const authLimiter = rateLimit({
 // Configuration CORS améliorée
 const allowedOrigins = process.env.ALLOWED_ORIGINS 
   ? process.env.ALLOWED_ORIGINS.split(',').map(origin => origin.trim())
-  : ['http://localhost:3000', 'http://localhost:5173','https://restaurant-frontend-foni7k5of-devros-projects.vercel.app'];
+  : ['http://localhost:3000', 'http://localhost:5173','https://restaurant-frontend-3krb1t2di-devros-projects.vercel.app'];
 
 console.log('🌍 Origines autorisées:', allowedOrigins);
 
